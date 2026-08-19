@@ -1,0 +1,23 @@
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/terraform.tfvars
+
+# AWS CLI installer
+aws/
+awscliv2.zip
+
+# SSH/private keys
+*.pem
+*.key
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Environment/secrets
+.env
+.env.*
